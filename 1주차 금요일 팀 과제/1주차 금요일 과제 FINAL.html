@@ -1,0 +1,964 @@
+﻿<!DOCTYPE html>
+<script>
+    function change_app() {
+        document.getElementById("option1").style.display = "none";
+        document.getElementById("option3").style.display = "none";
+        document.getElementById("option4").style.display = "none";
+        document.getElementById("option2").style.display = "block";
+    }
+
+    function change_web() {
+        document.getElementById("option1").style.display = "none";
+        document.getElementById("option2").style.display = "none";
+        document.getElementById("option3").style.display = "none";
+        document.getElementById("option4").style.display = "block";
+    }
+
+    function change_card() {
+        document.getElementById("option1").style.display = "none";
+        document.getElementById("option2").style.display = "none";
+        document.getElementById("option4").style.display = "none";
+        document.getElementById("option3").style.display = "block";
+    }
+
+    function change_all() {
+        document.getElementById("option2").style.display = "none";
+        document.getElementById("option3").style.display = "none";
+        document.getElementById("option4").style.display = "none";
+        document.getElementById("option1").style.display = "block";
+    }
+
+    function change_1() {
+        document.getElementById("opt2").style.display = "none";
+        document.getElementById("opt3").style.display = "none";
+        document.getElementById("opt4").style.display = "none";
+        document.getElementById("opt1").style.display = "block";
+    }
+
+    function change_2() {
+        document.getElementById("opt1").style.display = "none";
+        document.getElementById("opt3").style.display = "none";
+        document.getElementById("opt4").style.display = "none";
+        document.getElementById("opt2").style.display = "block";
+    }
+
+    function change_3() {
+        document.getElementById("opt1").style.display = "none";
+        document.getElementById("opt2").style.display = "none";
+        document.getElementById("opt4").style.display = "none";
+        document.getElementById("opt3").style.display = "block";
+    }
+
+    function change_4() {
+        document.getElementById("opt1").style.display = "none";
+        document.getElementById("opt2").style.display = "none";
+        document.getElementById("opt3").style.display = "none";
+        document.getElementById("opt4").style.display = "block";
+    }
+
+
+</script>
+<script type="text/javascript">
+
+    var bDisplay = true;
+
+    function doDisplay1() {
+        var con1 = document.getElementById("answer1");
+
+        if (con1.style.display == 'block') {
+            con1.style.display = 'none';
+        }
+        else {
+            con1.style.display = 'block';
+        }
+    }
+
+    function doDisplay2() {
+        var con2 = document.getElementById("answer2");
+
+        if (con2.style.display == 'block') {
+            con2.style.display = 'none';
+        }
+        else {
+            con2.style.display = 'block';
+        }
+    }
+    function doDisplay3() {
+        var con3 = document.getElementById("answer3");
+
+        if (con3.style.display == 'block') {
+            con3.style.display = 'none';
+        }
+        else {
+            con3.style.display = 'block';
+        }
+    }
+    function doDisplay4() {
+        var con4 = document.getElementById("answer4");
+        if (con4.style.display == 'block') {
+            con4.style.display = 'none';
+        }
+        else {
+            con4.style.display = 'block';
+        }
+    }
+    function doDisplay5() {
+        var con5 = document.getElementById("answer5");
+
+        if (con5.style.display == 'block') {
+            con5.style.display = 'none';
+        }
+        else {
+            con5.style.display = 'block';
+        }
+    }
+    function doDisplay6() {
+        var con6 = document.getElementById("answer6");
+
+        if (con6.style.display == 'block') {
+            con6.style.display = 'none';
+        }
+        else {
+            con6.style.display = 'block';
+        }
+    }
+</script>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>rapid</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,500,600,700,700i|Montserrat:300,400,500,600,700" rel="stylesheet">
+
+    <!-- Libraries CSS Files -->
+    <link href="pt_2.css" rel="stylesheet" />
+    <link href="pt_1.css" rel="stylesheet" />
+    <link href="last_pt.css" rel="stylesheet" />
+    <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        /*Team Section
+        -----------------------------------------------*/
+
+        #team {
+            background-color: #f5f8fd;
+            width: 100%;
+            text-align: center;
+            overflow: auto;
+            padding-bottom: 80px;
+        }
+
+            #team .title {
+                padding: 50px 0 0 0;
+                font-size: 36px;
+                color: #413e66;
+                text-align: center;
+                font-weight: 700;
+                font-family: "Montserrat", sans-serif;
+            }
+
+            #team .title_info {
+                width: 30%;
+                text-align: center;
+                margin: 20px auto;
+                font-size: 15px;
+                padding-bottom: 60px;
+                color: #535074;
+                font-family: "Open Sans", sans-serif;
+            }
+
+            #team .members {
+                width: 1140px;
+                height: 255px;
+                margin: 0px auto;
+            }
+
+                #team .members .members_info {
+                    width: 255px;
+                    height: 255px;
+                    float: left;
+                    margin: 0 auto;
+                    position: relative;
+                    margin-left: 15px;
+                    margin-right: 15px;
+                }
+
+                    #team .members .members_info:nth-child(1) {
+                        background-image: url(4.jpg);
+                    }
+
+                    #team .members .members_info:nth-child(2) {
+                        background-image: url(1.jpg);
+                    }
+
+                    #team .members .members_info:nth-child(3) {
+                        background-image: url(2.jpg);
+                    }
+
+                    #team .members .members_info:nth-child(4) {
+                        background-image: url(3.jpg);
+                    }
+
+                    #team .members .members_info .members_info_name {
+                        position: absolute;
+                        width: 255px;
+                        margin-top: 189px;
+                        background: rgba(29, 28, 41, 0.6);
+                        font-family: "Montserrat", sans-serif;
+                        text-align: center;
+                        font-weight: 700;
+                        padding-top: 10px;
+                        padding-bottom: 2px;
+                        font-size: 18px;
+                        color: #fff;
+                    }
+
+                    #team .members .members_info .members_info_position {
+                        position: absolute;
+                        width: 255px;
+                        margin-top: 223px;
+                        padding-bottom: 15px;
+                        background: rgba(29, 28, 41, 0.6);
+                        font-style: italic;
+                        font-size: 13px;
+                        color: #fff;
+                        font-family: "Open Sans", sans-serif;
+                    }
+
+        /*Our Clients Section
+        -----------------------------------------------*/
+
+        #our_clients {
+            background-color: #ffffff;
+            width: 100%;
+            text-align: center;
+            overflow: auto;
+            padding-bottom: 80px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+            #our_clients .title {
+                padding: 50px 0 0 0;
+                font-size: 36px;
+                color: #413e66;
+                text-align: center;
+                font-weight: 700;
+                font-family: "Montserrat", sans-serif;
+                position: relative;
+            }
+
+            #our_clients .logos {
+                width: 1600px;
+                margin: 0px auto;
+            }
+
+                #our_clients .logos .bi {
+                    float: left;
+                    margin: 50px 25px;
+                }
+
+            #our_clients .circles {
+                position: absolute;
+                left: 49%;
+                width: 55px;
+                clear: both;
+                margin-top: 150px;
+            }
+
+                #our_clients .circles .circle {
+                    width: 12px;
+                    height: 12px;
+                    border-radius: 75px;
+                    float: left;
+                    margin: 0px 7px;
+                }
+
+                    #our_clients .circles .circle:nth-child(1) {
+                        background-color: #1bb1dc;
+                    }
+
+                    #our_clients .circles .circle:nth-child(2) {
+                        background-color: #cccccc;
+                    }
+
+        /*Pricing Section
+        -----------------------------------------------*/
+
+        #pricing {
+            background-color: #f5f8fd;
+            width: 100%;
+            text-align: center;
+            padding-bottom: 80px;
+        }
+
+            #pricing .title {
+                padding: 50px 0 0 0;
+                font-size: 36px;
+                color: #413e66;
+                text-align: center;
+                font-weight: 700;
+                font-family: "Montserrat", sans-serif;
+            }
+
+            #pricing .title_info {
+                width: 30%;
+                text-align: center;
+                margin: 20px auto;
+                font-size: 15px;
+                padding-bottom: 60px;
+                color: #535074;
+                font-family: "Open Sans", sans-serif;
+            }
+
+            #pricing .rate_systems {
+                width: 1240px;
+                height: 413px;
+                margin: 0px auto;
+            }
+
+                #pricing .rate_systems .rating {
+                    background-color: #ffffff;
+                    border-bottom: 1px solid #cccccc;
+                    width: 380px;
+                    height: 413px;
+                    float: left;
+                    margin: 0 auto;
+                    margin-left: 15px;
+                    margin-right: 15px;
+                }
+
+                    #pricing .rate_systems .rating .price_wrap {
+                        width: 380px;
+                        margin-top: 40px;
+                        margin-left: auto;
+                        margin-right: auto;
+                    }
+
+                        #pricing .rate_systems .rating .price_wrap .price {
+                            font-family: "Montserrat", sans-serif;
+                            font-weight: 400;
+                            margin: 0 0 20px 0;
+                            padding: 0;
+                            font-size: 64px;
+                            margin-bottom: 0px;
+                            color: #535074;
+                            position: relative;
+                        }
+
+                            #pricing .rate_systems .rating .price_wrap .price .dollar_sign {
+                                font-size: 30px;
+                                position: absolute;
+                                font-weight: 400;
+                                color: #535074;
+                                font-family: "Montserrat", sans-serif;
+                                margin-left: 105px;
+                            }
+
+                            #pricing .rate_systems .rating .price_wrap .price .month {
+                                margin-left: -20px;
+                                display: inline-block;
+                                font-size: 16px;
+                                color: #6c67a3;
+                            }
+
+                        #pricing .rate_systems .rating .price_wrap .plan {
+                            color: #535074;
+                            font-family: "Montserrat", sans-serif;
+                            font-weight: 400;
+                            margin: 10px 0 20px 0;
+                            padding: 0;
+                            font-size: 1.5rem;
+                        }
+
+                        #pricing .rate_systems .rating .price_wrap .plan_info {
+                            padding: 0px;
+                            color: #413e66;
+                            font-weight: 300;
+                            font-family: "Open Sans", sans-serif;
+                            font-size: 1rem;
+                            line-height: 35px;
+                        }
+
+                        #pricing .rate_systems .rating .price_wrap .choose_plan {
+                            width: 149px;
+                            height: 41px;
+                            background-color: #1bb1dc;
+                            border-radius: 3px;
+                            margin-top: 10px;
+                            margin-left: 115px;
+                            line-height: 41px;
+                            color: #ffffff;
+                            margin-bottom: -20px;
+                            font-size: 13px;
+                            font-weight: 500;
+                            font-family: "Open Sans", sans-serif;
+                        }
+    </style>
+</head>
+<body>
+    <div id="cheader">
+        <div id="sns-links">
+            <div class="sns-container">
+                <a href="https://twitter.com/" class="twitter"><i class="fa fa-twitter"></i></a>
+                <a href="https://www.facebook.com/" class="facebook"><i class="fa fa-facebook"></i></a>
+                <a href="https://kr.linkedin.com/" class="linkedin"><i class="fa fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/" class="instagram"><i class="fa fa-instagram"></i></a>
+            </div>
+        </div>
+
+        <div id="main-bar">
+            <div id="main-logo">
+                <div class="logo-left"><span class="text-logo">RAPID</span></div>
+            </div>
+
+            <div id="nav">
+                <div id="container">
+                    <div><a href="#start" class="#">Home</a></div>
+                    <div><a href="#about-us" class="#">About Us</a></div>
+                    <div><a href="#services" class="#">Services</a></div>
+                    <div><a href="#content4" class="#">Portfolio</a></div>
+                    <div><a href="#team" class="#">Team</a></div>
+                    <div>
+                        <a href="#drop-down" class="#">Drop Down</a>
+                    </div>
+                    <div><a href="#contact-us" class="#">Contact Us</a></div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="main">
+        <div id="start">
+            <div class="container">
+                <div class="s-container">
+                    <div class="start-text">Rapid Solutions<br>for Your <sapn>Business!</sapn></div>
+                    <div><a href="#about-us" class="get-started">GET STARTED</a></div>
+                </div>
+            </div>
+        </div>
+        <div id="about-us">
+            <div class="container">
+                <div class="a-container">
+                    <div class="about-img-container">
+                        <div class="about-img"><img src="about-img.jpg"></div>
+                    </div>
+
+                    <div class="about-content-container">
+                        <div class="about-content1">About Us</div>
+                        <div class="about-content2">We're the first coding team in the pirogramming. We are a team of pure people.</div>
+                        <div class="about-content3">We have the ability to create this Web page for a day. Not js, just pure html and css. That's why web page is so sloppy.</div>
+                        <div class="about-content4">It's even been five days since we learned html and css. As expected, pirogramming's ability is great seeing how far we have created the web page. But I think it's a little harsh. Please look at this article and web page and reconsider our ability and give us your next assignment after due consideration. Maybe we can take a break sometimes. We love pirogramming.</div>
+                        <div class="about-content5">
+                            <div class="about-check-icon"><i class="ion-android-checkmark-circle"></i>The picture on the left is the current time I'm coding.</div>
+                            <div class="about-check-icon"><i class="ion-android-checkmark-circle"></i>I'm very happy and happy right now.</div>
+                            <div class="about-check-icon"><i class="ion-android-checkmark-circle"></i>Please excuse me that I can sleep at dinner party afterwords.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="services" class="section-bg">
+            <div class="container">
+                <header class="section-header">
+                    <h3>Services</h3>
+                    <p>Laudem latine persequeris id sed, ex fabulas delectus quo. No vel partiendo abhorreant vituperatoribus.</p>
+                </header>
+                <div class="row">
+                    <div class="box">
+                        <div class="icon" style="background: #fceef3;"><i class="ion-ios-analytics-outline" style="color: #ff689b;"></i></div>
+                        <h4 class="title"><a href="">Lorem Ipsum</a></h4>
+                        <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+                    </div>
+                    <div class="box">
+                        <div class="icon" style="background: #fff0da;"><i class="ion-ios-bookmarks-outline" style="color: #e98e06;"></i></div>
+                        <h4 class="title"><a href="">Dolor Sitema</a></h4>
+                        <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
+                    </div>
+                    <div class="box">
+                        <div class="icon" style="background: #e6fdfc;"><i class="ion-ios-paper-outline" style="color: #3fcdc7;"></i></div>
+                        <h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
+                        <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+                    </div>
+                    <div class="box">
+                        <div class="icon" style="background: #eafde7;"><i class="ion-ios-speedometer-outline" style="color:#41cf2e;"></i></div>
+                        <h4 class="title"><a href="">Magni Dolores</a></h4>
+                        <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                    </div>
+                    <div class="box">
+                        <div class="icon" style="background: #e1eeff;"><i class="ion-ios-world-outline" style="color: #2282ff;"></i></div>
+                        <h4 class="title"><a href="">Nemo Enim</a></h4>
+                        <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
+                    </div>
+                    <div class="box">
+                        <div class="icon" style="background: #ecebff;"><i class="ion-ios-clock-outline" style="color: #8660fe;"></i></div>
+                        <h4 class="title"><a href="">Eiusmod Tempor</a></h4>
+                        <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="content">
+        <div id="content1">
+            <!--WHY US SECTION-->
+            <div id="heading">
+                <div class="title">Why choose us?</div>
+                <div class="basic_info">Laudem latine persequeris id sed, ex fabulas delectus quo. No vel partiendo abhorreant vituperatoribus.</div>
+            </div>
+            <div id="imagebox">
+                <img src="img/why-us.jpg">
+            </div>
+            <div id="infobox">
+                <div class="para">
+                    Molestiae omnis numquam corrupti omnis itaque. Voluptatum quidem impedit. Odio dolorum exercitationem est error omnis repudiandae ad dolorum sit.<br />
+                </div>
+                <div class="para">
+                    Explicabo repellendus quia labore. Non optio quo ea ut ratione et quaerat. Porro facilis deleniti porro consequatur et temporibus. Labore est odio. Odio omnis saepe qui. Veniam eaque ipsum. Ea quia voluptatum quis explicabo sed nihil repellat..
+                </div>
+                <div id="lists">
+                    <div class="header">
+                        <i class="fa fa-diamond" style="color: #f058dc;"></i>Corporis dolorem
+                    </div>
+                    <div class="info">
+                        Commodi quia voluptatum. Est cupiditate voluptas quaerat officiis ex alias dignissimos et ipsum. Soluta at enim modi ut incidunt dolor et.
+                    </div>
+                    <div class="header">
+                        <i class="fa fa-object-group" style="color: #ffb774;"></i>Eum ut aspernatur
+                    </div>
+                    <div class="info">
+                        Molestias eius rerum iusto voluptas et ab cupiditate aut enim. Assumenda animi occaecati. Quo dolore fuga quasi autem aliquid ipsum odit. Perferendis doloremque iure nulla aut.
+                    </div>
+                    <div class="header">
+                        <i class="fa fa-language" style="color: #589af1;"></i>  Voluptates dolores
+                    </div>
+                    <div class="info">
+                        Voluptates nihil et quis omnis et eaque omnis sint aut. Ducimus dolorum aspernatur. Totam dolores ut enim ullam voluptas distinctio aut.
+                    </div>
+                </div>
+            </div>
+            <div id="number">
+                <div class="no">
+                    <div><h1>274</h1><p>Clients</p></div>
+                    <div><h1>421</h1><p>Projects</p></div>
+                    <div><h1>1,364</h1><p>Hours of Support</p></div>
+                    <div><h1>18</h1><p>Hard Workers</p></div>
+                </div>
+
+            </div>
+        </div>
+        <div id="content2">
+            <!--CALL TO ACTION-->
+            <div class="words">
+                <div class="title">
+                    Call To Action
+                </div>
+                <div class="basic_info">
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </div>
+            </div>
+            <div class="actionbutton">
+                <a href="#none">Call To Action</a>
+            </div>
+        </div>
+        <div id="content3">
+            <!--FEATURES-->
+            <div id="pt1">
+                <div class="imagebox">
+                    <img src="img/features-1.svg" alt="">
+                </div>
+                <div class="infobox">
+                    <div class="title">
+                        Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.
+                    </div>
+                    <div class="basic_info">
+                        Ipsum in aspernatur ut possimus sint. Quia omnis est occaecati possimus ea. Quas molestiae perspiciatis occaecati qui rerum. Deleniti quod porro sed quisquam saepe. Numquam mollitia recusandae non ad at et a.
+                    </div>
+                    <div class="basic_info">
+                        Ad vitae recusandae odit possimus. Quaerat cum ipsum corrupti. Odit qui asperiores ea corporis deserunt veritatis quidem expedita perferendis. Qui rerum eligendi ex doloribus quia sit. Porro rerum eum eum.
+                    </div>
+                </div>
+            </div>
+
+            <div id="pt2">
+                <div class="infobox">
+                    <div class="title">
+                        Neque saepe temporibus repellat ea ipsum et. Id vel et quia tempora facere reprehenderit.
+                    </div>
+                    <div class="basic_info">
+                        Delectus alias ut incidunt delectus nam placeat in consequatur. Sed cupiditate quia ea quis. Voluptas nemo qui aut distinctio. Cumque fugit earum est quam officiis numquam. Ducimus corporis autem at blanditiis beatae incidunt sunt.
+                    </div>
+                    <div class="basic_info">
+                        Voluptas saepe natus quidem blanditiis. Non sunt impedit voluptas mollitia beatae. Qui esse molestias. Laudantium libero nisi vitae debitis. Dolorem cupiditate est perferendis iusto.
+                    </div>
+                    <div class="basic_info">
+                        Eum quia in. Magni quas ipsum a. Quis ex voluptatem inventore sint quia modi. Numquam est aut fuga mollitia exercitationem nam accusantium provident quia.
+                    </div>
+                </div>
+                <div class="imagebox">
+                    <img src="img/features-2.svg" alt="">
+                </div>
+            </div>
+        </div>
+        <div id="content4">
+            <!--PORTFOLIO-->
+            <div id="header">
+                Our Portfolio
+            </div>
+            <div id="menu_list">
+                <div><a href="#none" onclick="change_all()">All</a></div>
+                <div><a href="#none" onclick="change_app()">App</a></div>
+                <div><a href="#none" onclick="change_card()">Card</a></div>
+                <div><a href="#none" onclick="change_web()">Web</a></div>
+            </div>
+            <div id="option1">
+                <div id="col_1" style="position:relative; height:1081.02px; width:350px;">
+                    <div class="img_1" style="position:absolute; top:0; left:0;margin-bottom:10px;">
+                        <img src="img/portfolio/app1.jpg" style="width:100%" />
+                    </div>
+                    <div class="img_2" style="position:absolute; top:384px; left:0;margin-bottom:10px;">
+                        <img src="img/portfolio/app3.jpg" style="width:100%" />
+                    </div>
+                    <div class="img_3" style="position:absolute; top:646px; left:0;margin-bottom:10px;">
+                        <img src="img/portfolio/card1.jpg" style="width:100%" />
+                    </div>
+                </div>
+                <div id="col_2" style="position:relative; height:1081.02px; width:350px;">
+                    <div class="img_4" style="position:absolute; top:0; left:0;margin-bottom:10px;">
+                        <img src="img/portfolio/web3.jpg" style="width:100%" />
+                    </div>
+                    <div class="img_5" style="position:absolute; top:264px; left:0;margin-bottom:10px;">
+                        <img src="img/portfolio/web2.jpg" style="width:100%" />
+                    </div>
+                    <div class="img_6" style="position:absolute; top:817px; left:0;margin-bottom:10px;">
+                        <img src="img/portfolio/web1.jpg" style="width:100%" />
+                    </div>
+                </div>
+                <div id="col_3" style="position:relative; height:1081.02px; width:350px;">
+                    <div class="img_7" style="position:absolute; top:0; left:0;margin-bottom:10px;">
+                        <img src="img/portfolio/app2.jpg" style="width:100%" />
+                    </div>
+                    <div class="img_8" style="position:absolute; top:226px; left:0;margin-bottom:10px;">
+                        <img src="img/portfolio/card2.jpg" style="width:100%" />
+                    </div>
+                    <div class="img_9" style="position:absolute; top:777px; left:0;margin-bottom:10px;">
+                        <img src="img/portfolio/card3.jpg" style="width:100%" />
+                    </div>
+                </div>
+            </div>
+            <div id="option2">
+                <div id="col_1" style="position:relative; height:1081.02px; width:350px;">
+                    <div class="img_1" style="position:absolute; top:0; left:0;margin-bottom:10px;">
+                        <img src="img/portfolio/app1.jpg" style="width:100%" />
+                    </div>
+                </div>
+                <div id="col_2" style="position:relative; height:1081.02px; width:350px;">
+                    <div class="img_4" style="position:absolute; top:0; left:0;margin-bottom:10px;">
+                        <img src="img/portfolio/app2.jpg" style="width:100%" />
+                    </div>
+                </div>
+                <div id="col_3" style="position:relative; height:1081.02px; width:350px;">
+                    <div class="img_7" style="position:absolute; top:0; left:0;margin-bottom:10px;">
+                        <img src="img/portfolio/app3.jpg" style="width:100%" />
+                    </div>
+                </div>
+                <div id="option2">
+                    <div id="col_1" style="position:relative; height:1081.02px; width:350px;;">
+                        <div class="img_1" style="position:absolute; top:0; left:0;margin-bottom:10px;">
+                            <img src="img/portfolio/app1.jpg" style="width:100%" />
+                        </div>
+                    </div>
+                    <div id="col_2" style="position:relative; height:1081.02px; width:350px;">
+                        <div class="img_4" style="position:absolute; top:0; left:0;margin-bottom:10px;">
+                            <img src="img/portfolio/app2.jpg" style="width:100%" />
+                        </div>
+                    </div>
+                    <div id="col_3" style="position:relative; height:1081.02px; width:350px;">
+                        <div class="img_7" style="position:absolute; top:0; left:0;margin-bottom:10px;">
+                            <img src="img/portfolio/app3.jpg" style="width:100%" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="option3">
+                <div id="col_1" style="position:relative; height:1081.02px; width:350px;">
+                    <div class="img_1" style="position:absolute; top:0; left:0;margin-bottom:10px;">
+                        <img src="img/portfolio/card2.jpg" style="width:100%" />
+                    </div>
+                </div>
+                <div id="col_2" style="position:relative; height:1081.02px; width:350px;">
+                    <div class="img_4" style="position:absolute; top:0; left:0;margin-bottom:10px;">
+                        <img src="img/portfolio/card1.jpg" style="width:100%" />
+                    </div>
+                </div>
+                <div id="col_3" style="position:relative; height:1081.02px; width:350px;">
+                    <div class="img_7" style="position:absolute; top:0; left:0;margin-bottom:10px;">
+                        <img src="img/portfolio/card3.jpg" style="width:100%" />
+                    </div>
+                </div>
+            </div>
+            <div id="option4">
+                <div id="col_1" style="position:relative; height:1081.02px; width:350px;">
+                    <div class="img_1" style="position:absolute; top:0; left:0;margin-bottom:10px;">
+                        <img src="img/portfolio/web3.jpg" style="width:100%" />
+                    </div>
+                </div>
+                <div id="col_2" style="position:relative; height:1081.02px; width:350px;">
+                    <div class="img_4" style="position:absolute; top:0; left:0;margin-bottom:10px;">
+                        <img src="img/portfolio/web2.jpg" style="width:100%" />
+                    </div>
+                </div>
+                <div id="col_3" style="position:relative; height:1081.02px; width:350px;">
+                    <div class="img_7" style="position:absolute; top:0; left:0;margin-bottom:10px;">
+                        <img src="img/portfolio/web1.jpg" style="width:100%" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="content5">
+            <!--TESTMONIALS-->
+            <div id="header">
+                Testimonials
+            </div>
+            <div id="the_content">
+                <div id="opt1">
+                    <div class="header">
+                        <img src="img/testimonial-1.jpg" />
+                    </div>
+                    <div class="info">
+                        <h1>Saul Goodman</h1>
+                        <h3>Ceo &amp; Founder</h3>
+                        <p2>Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.</p2>
+                    </div>
+                </div>
+                <div id="opt2">
+                    <div class="header">
+                        <img src="img/testimonial-2.jpg" />
+                    </div>
+                    <div class="info">
+                        <h1>Sara Wilsson</h1>
+                        <h3>Designer</h3>
+                        <p2>Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.</p2>
+                    </div>
+                </div>
+                <div id="opt3">
+                    <div class="header">
+                        <img src="img/testimonial-3.jpg" />
+                    </div>
+                    <div class="info">
+                        <h1>Jena Karlis</h1>
+                        <h3>Store Owner</h3>
+                        <p2>Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.</p2>
+                    </div>
+                </div>
+                <div id="opt4">
+                    <div class="header">
+                        <img src="img/testimonial-4.jpg" />
+                    </div>
+                    <div class="info">
+                        <h1>Matt Brandon</h1>
+                        <h3>Freelancer</h3>
+                        <p2>Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.</p2>
+                    </div>
+                </div>
+                <div class="circles">
+                    <div class="circle" onclick="change_1()"></div>
+                    <div class="circle" onclick="change_2()"></div>
+                    <div class="circle" onclick="change_3()"></div>
+                    <div class="circle" onclick="change_4()"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="team">
+        <div class="title">Team</div>
+        <div class="title_info">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</div>
+        <div class="members">
+            <div class="members_info">
+                <div class="members_info_name">Sugyeong Lee</div>
+                <div class="members_info_position">Chief Executive Officer</div>
+            </div>
+            <div class="members_info">
+                <div class="members_info_name">Seungjae Chung</div>
+                <div class="members_info_position">Product Manager</div>
+            </div>
+            <div class="members_info">
+                <div class="members_info_name">Woochul Shin</div>
+                <div class="members_info_position">CTO</div>
+            </div>
+            <div class="members_info">
+                <div class="members_info_name">Jongin Lee</div>
+                <div class="members_info_position">Accountant</div>
+            </div>
+        </div>
+    </div>
+
+    <div id="our_clients">
+        <div class="title">Our Clients</div>
+        <div class="logos">
+            <div class="bi">
+                <img src="https://bootstrapmade.com/demo/themes/Rapid/img/clients/client-7.png" width="148" height="66">
+            </div>
+            <div class="bi">
+                <img src="https://bootstrapmade.com/demo/themes/Rapid/img/clients/client-8.png" width="148" height="66">
+            </div>
+            <div class="bi">
+                <img src="https://bootstrapmade.com/demo/themes/Rapid/img/clients/client-1.png" width="148" height="66">
+            </div>
+            <div class="bi">
+                <img src="https://bootstrapmade.com/demo/themes/Rapid/img/clients/client-2.png" width="148" height="66">
+            </div>
+            <div class="bi">
+                <img src="https://bootstrapmade.com/demo/themes/Rapid/img/clients/client-3.png" width="148" height="66">
+            </div>
+            <div class="bi">
+                <img src="https://bootstrapmade.com/demo/themes/Rapid/img/clients/client-4.png" width="148" height="66">
+            </div>
+            <div class="bi">
+                <img src="https://bootstrapmade.com/demo/themes/Rapid/img/clients/client-5.png" width="148" height="66">
+            </div>
+            <div class="bi">
+                <img src="https://bootstrapmade.com/demo/themes/Rapid/img/clients/client-6.png" width="148" height="66">
+            </div>
+        </div>
+        <div class="circles">
+            <div class="circle"></div>
+            <div class="circle"></div>
+        </div>
+    </div>
+
+    <div id="pricing">
+        <div class="title">Pricing</div>
+        <div class="title_info">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</div>
+        <div class="rate_systems">
+            <div class="rating">
+                <div class="price_wrap">
+                    <div class="price">
+                        <div class="dollar_sign">$</div>19
+                        <div class="month">/month</div>
+                    </div>
+                    <div class="plan">Basic Plan</div>
+                    <div class="plan_info">Odio animi voluptates<br />Inventore quisquam et<br />Et perspiciatis suscipit<br />24/7 Support System</div>
+                    <div class="choose_plan" OnClick="location.href ='#'" style="cursor:pointer;">CHOOSE PLAN</div>
+                </div>
+            </div>
+            <div class="rating">
+                <div class="price_wrap">
+                    <div class="price">
+                        <div class="dollar_sign">$</div>29
+                        <div class="month">/month</div>
+                    </div>
+                    <div class="plan">Regular Plan</div>
+                    <div class="plan_info">Odio animi voluptates<br />Inventore quisquam et<br />Et perspiciatis suscipit<br />24/7 Support System</div>
+                    <div class="choose_plan" OnClick="location.href ='#'" style="cursor:pointer;">CHOOSE PLAN</div>
+                </div>
+            </div>
+            <div class="rating">
+                <div class="price_wrap">
+                    <div class="price">
+                        <div class="dollar_sign">$</div>39
+                        <div class="month">/month</div>
+                    </div>
+                    <div class="plan">Premium Plan</div>
+                    <div class="plan_info">Odio animi voluptates<br />Inventore quisquam et<br />Et perspiciatis suscipit<br />24/7 Support System</div>
+                    <div class="choose_plan" OnClick="location.href ='#'" style="cursor:pointer;">CHOOSE PLAN</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="cwrap">
+        <div id="top">
+            <div id="title">저희 팀에게 질문을 해보았습니다.</div>
+            <div id="scondtitle">저희 팀에게 궁금한 질문을 6가지를 꼽아 질문해 답변을 성실히 적어보았습니다. 열심히 작성했으니 궁금하지 않더라도 다들 한 번씩 읽어봐 주세요.</div>
+        </div>
+        <div id="bottom">
+            <div>
+                피로그래밍에 들어오게 된 계기는 무엇인가요?<a href="javascript:doDisplay1();"><img src="./2x/baseline_add_black_18dp.png" alt=""></a>
+                <div id="answer1">프로젝트 경험을 쌓고 팀원들과 어울리며 협업하는 법을 배우기 위해 지원하게 되었습니다.</div><hr>
+            </div>
+            <div>
+                팀플은 어디서 진행했나요? 팀플을 진행하면서 어려운 점은 없었나요?<a href="javascript:doDisplay2();"><img src="./2x/baseline_add_black_18dp.png" alt=""></a>
+                <div id="answer2">팀플은 서울대입구역 4번출구에 있는 스타벅스에서 진행되었고, 각자의 스케줄을 맞추기 어려웠습니다. </div><hr>
+            </div>
+            <div>
+                앞으로 피로그래밍을 하면서 더 많은 과제와 팀플이 진행 될텐데 각오가 되어 있으신가요?<a href="javascript:doDisplay3();"><img src="./2x/baseline_add_black_18dp.png" alt=""></a>
+                <div id="answer3">그럼요. 피로그래밍으로 활동하게 된 그 순간부터 각오가 되어 있었습니다.</div><hr>
+            </div>
+            <div>
+                앞으로의 피로그래밍 계획은 무엇입니까?<a href="javascript:doDisplay4();"><img src="./2x/baseline_add_black_18dp.png" alt=""></a>
+                <div id="answer4">파이썬과 html를 완벽하게 숙지하여 인공지능 사이트를 개발하는 것이 목표입니다.</div><hr>
+            </div>
+            <div>
+                내일 있을 뒷풀이에 참여하실 계획이신가요?<a href="javascript:doDisplay5();"><img src="./2x/baseline_add_black_18dp.png" alt=""></a>
+                <div id="answer5">물론입니다.</div><hr>
+            </div>
+            <div>
+                피로그래밍을 함께 활동하는 동료들에게 한마디 해주세요.<a href="javascript:doDisplay6();"><img src="./2x/baseline_add_black_18dp.png" alt=""></a>
+                <div id="answer6">다들 화이팅 합시다. 2020년을 열심히 살아봅시다. 화이팅!!</div><hr>
+            </div>
+        </div>
+    </div>
+
+    <div id="contact-us">
+        <div id="conwrap">
+            <div id="left">
+                <div class="box1">
+                    <div id="cname">신우철</div>
+                    <div id="content">010 9413 1956 <br />house_of_fresh_water </div>
+                </div>
+                <div class="box2">
+                    <div id="cname">정승재</div>
+                    <div id="content">010 9941 2707<br />wjdtmdwo07<br />wjdtmdwo07@daum.net </div>
+                </div>
+                <div class="box3">
+                    <div id="cname">이수경</div>
+                    <div id="content">010 2512 3401<br />sugyeong0605<br />dune2011@naver.com </div>
+                </div>
+                <div class="box4">
+                    <div id="cname">이종인</div>
+                    <div id="content">010 2127 7065 <br />paulkr.5 <br />paullee20204@gmail.com </div>
+                </div>
+                <div class id="scribe">
+                    <div id="sbtn"><input type="text" class="scribtn"><input type="button" class="scribtn2" value="subscribe"></div>
+                </div>
+
+            </div>
+            <div id="right">
+                <div id="cname">SEND US MESSAGE</div>
+                <div id="send">저희 팀에게 궁금한 점과 전할 말이 있으시다면 밑에 나와 있는 폼을 작성하여 보내주세요. 저희가 성심성의껏 답변해드립니다. 감사합니다. </div>
+
+                <div><input type="text" class="inputbtn" placeholder="Your name"></div>
+                <div><input type="text" class="inputbtn" placeholder="Your Email"></div>
+                <div><input type="text" class="inputbtn" placeholder="Subject"></div>
+                <div><textarea id="message" placeholder="Message"></textarea></div>
+                <div id="c"><input type="button" class="btn" value="Send Message"></div>
+            </div>
+            <a href="#about us"><img src="./2x/baseline_arrow_upward_black_18dp.png" class="up"></a>
+        </div>
+    </div>
+
+    <div id="footer">
+        © Copyright Rapid. All Rights Reserved
+        Designed by BootstrapMade
+    </div>
+
+</body>
+</html>
