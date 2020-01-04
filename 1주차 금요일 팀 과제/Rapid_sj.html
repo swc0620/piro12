@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rapid Bootstrap Template</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,500,600,700,700i|Montserrat:300,400,500,600,700" rel="stylesheet">
+
+
+    <style>
+        body {
+            padding: 0;
+            margin: 0;
+            background: #fff;
+            color: #444;
+            font-family: "Open Sans", sans-serif;
+        }
+
+        /*상단 sns 링크*/
+        #sns-links {
+            width: 1140px;
+            padding: 0 0 10px 0;
+            font-size: 14px;
+            transition: all 0.5s;
+            margin: 0 auto;
+        }
+        #sns-links .sns-container {
+            text-align: right;
+        }
+        #sns-links .sns-container a {
+            color: #535074;
+            padding: 4px 12px;
+            display: inline-block;
+            line-height: 1px;
+        }
+        #sns-links .sns-container a:hover {
+            color: #1bb1dc;
+        }
+        #sns-links .sns-container a:first-child {
+            border-left: 0;
+        }
+
+        /*main-bar*/
+
+        .text-logo { font-size: 36px; margin: 0; padding: 0; line-height: 1; font-weight: 400; letter-spacing: 3px; text-transform: uppercase;}
+
+        a {
+            color: #1bb1dc;
+            transition: 0.5s;
+            text-decoration: none;
+        }
+        a:hover, a:active, a:focus {
+            color: #0a98c0;
+            outline: none;
+        }
+
+        #header { width: 100%; height: 110px; position: fixed; z-index: 30; top:20px; left: 0; }
+
+        #main-bar {
+            overflow: hidden;
+            width: 1140px;
+            margin: 0 auto;
+        }
+        #main-logo {
+            float: left;
+        }
+        #nav {
+            float: right;
+        }
+        #nav #container  { overflow: hidden; width: 693px;}
+        #nav #container a {float: left; border: none; list-style: none; width: 99px; height: 60px; line-height: 60px; text-align: center; box-sizing: border-box;}
+
+        /*start css*/
+
+        #start {
+            width: 100%;
+            height: 100vh;
+            background: #f5f8fd url("start_img.jpg") center top no-repeat;
+            background-size: cover;
+        }
+        #start .container {
+            width: 1140px;
+            height: 100vh;
+            margin: auto;
+            position: relative;
+        }
+        #start .s-container {
+            position: absolute;
+            top: 33vh;
+        }
+        #start .start-text {
+            color: #413e66;
+            margin-bottom: 40px;
+            font-size: 48px;
+            font-weight: 700;
+        }
+        #start .start-text span {
+            color: #1bb1dc;
+        }
+        #start .get-started {
+            font-family: "Montserrat", sans-serif;
+            font-size: 13px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            display: inline-block;
+            padding: 10px 32px;
+            border-radius: 4px;
+            transition: 0.5s;
+            color: #fff;
+            background: #1bb1dc;
+        }
+
+        /*about us css*/
+
+        #about-us {
+            width: 100%;
+            padding-top: 80px;
+            padding-bottom: 80px;
+        }
+        #about-us .container {
+            width: 1140px;
+            margin: auto;
+            position: relative;
+        }
+        #about-us .a-container {
+            overflow: hidden;
+        }
+        #about-us .about-img {
+            position: relative;
+            margin: 30px 30px 30px 30px;
+        }
+        #about-us .about-img img{
+            width: 385px;
+            height: 562.73px;
+            border: 8px solid #fff;
+            transition: .5s;
+        }
+        #about-us .about-img img:hover {
+            width: 385px;
+            -webkit-transform: scale(1.03);
+            transform: scale(1.03);
+        }
+        #about-us .about-img::before {
+            position: absolute;
+            left: -31px;
+            top: -30px;
+            width: 90%;
+            height: 92%;
+            z-index: -1;
+            content: '';
+            background-color: #ebf1fa;
+            transition: .5s;
+        }
+        #about-us .about-img::after {
+            position: absolute;
+            right: -31px;
+            bottom: -30px;
+            width: 90%;
+            height: 92%;
+            z-index: -1;
+            content: '';
+            background-color: #ebf1fa;
+            transition: .5s;
+        }
+
+        #about-us .about-img-container {
+            float: left;
+        }
+        #about-us .about-content-container {
+            width: 635px;
+            height: 590px;
+            float: right;
+            margin-left: 35px;
+            padding-top: 40px;
+        }
+        #about-us .about-content1 {
+            font-size: 32px;
+            color: #413e66;
+            font-family: "Montserrat", sans-serif;
+            font-weight: 700;
+            margin-bottom: 30px;
+        }
+        #about-us .about-content2 {
+            font-size: 22px;
+            color: #696592;
+            font-weight: 400;
+            font-style: italic;
+            margin-bottom: 30px;
+        }
+        #about-us .about-content3 {
+            font-size: 16px;
+            margin-bottom: 30px;
+        }
+        #about-us .about-content4 {
+            font-size: 16px;
+            margin-bottom: 30px;
+        }
+        #about-us .about-content5 {
+            font-size: 16px;
+        }
+        #about-us .about-check-icon {
+            padding: 10px;
+        }
+        #about-us i {
+            font-size: 20px;
+            padding-right: 4px;
+            color: #1bb1dc;
+        }
+
+        /*service css*/
+        #services {
+            padding: 60px 0 40px 0;
+            background: #f5f8fd;
+        }
+        #services .box {
+            padding: 30px;
+            position: relative;
+            overflow: hidden;
+            border-radius: 10px;
+            margin: 0 10px 40px 10px;
+            background: #fff;
+            box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
+            transition: all 0.3s ease-in-out;
+            text-align: center;
+        }
+        #services .box:hover {
+            -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+        }
+        #services .icon {
+            margin: 0 auto 15px auto;
+            padding-top: 12px;
+            display: inline-block;
+            text-align: center;
+            border-radius: 50%;
+            width: 60px;
+            height: 60px;
+        }
+        #services .icon i {
+            font-size: 36px;
+            line-height: 1;
+        }
+        #services .title {
+            font-weight: 700;
+            margin-bottom: 15px;
+            font-size: 18px;
+        }
+        #services .title a {
+            color: #111;
+        }
+        #services .box:hover .title a {
+            color: #1bb1dc;
+        }
+        #services .description {
+            font-size: 14px;
+            line-height: 28px;
+            margin-bottom: 0;
+            text-align: left;
+        }
+        .section-header h3 {
+            font-size: 36px;
+            color: #413e66;
+            text-align: center;
+            font-weight: 700;
+            position: relative;
+            font-family: "Montserrat", sans-serif;
+        }
+        .section-header p {
+            text-align: center;
+            margin: auto;
+            font-size: 15px;
+            padding-bottom: 60px;
+            color: #535074;
+            width: 50%;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <div id = "header">
+        <div id="sns-links">
+            <div class="sns-container">
+                <a href="https://twitter.com/" class="twitter"><i class="fa fa-twitter"></i></a>
+                <a href="https://www.facebook.com/" class="facebook"><i class="fa fa-facebook"></i></a>
+                <a href="https://kr.linkedin.com/" class="linkedin"><i class="fa fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/" class="instagram"><i class="fa fa-instagram"></i></a>
+            </div>
+        </div>
+
+        <div id="main-bar">
+            <div id="main-logo">
+                <div class="logo-left"><span class = "text-logo">RAPID</span></div>
+            </div>
+
+            <div id="nav">
+                <div id="container">
+                    <div><a href="#start" class="#">Home</a></div>
+                    <div><a href="#about-us" class="#">About Us</a></div>
+                    <div><a href="#services" class="#">Services</a></div>
+                    <div><a href="#portfolio" class="#">Portfolio</a></div>
+                    <div><a href="#team" class="#">Team</a></div>
+                    <div><a href="#drop-down" class="#">Drop Down</a>
+                    </div>
+                    <div><a href="#contact-us" class="#">Contact Us</a></div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div id="main">
+        <div id="start">
+            <div class="container">
+                <div class="s-container">
+                    <div class="start-text">Rapid Solutions<br>for Your <sapn>Business!</sapn></div>
+                <div><a href="#about-us" class="get-started">GET STARTED</a></div>
+                </div>
+            </div>
+        </div>
+        <div id="about-us">
+            <div class="container">
+                <div class="a-container">
+                    <div class="about-img-container">
+                        <div class="about-img"><img src="about-img.jpg"></div>
+                    </div>
+
+                    <div class="about-content-container">
+                        <div class="about-content1">About Us</div>
+                        <div class="about-content2">We're the first coding team in the pirogramming. We are a team of pure people.</div>
+                        <div class="about-content3">We have the ability to create this Web page for a day. Not js, just pure html and css. That's why web page is so sloppy.</div>
+                        <div class="about-content4">It's even been five days since we learned html and css. As expected, pirogramming's ability is great seeing how far we have created the web page. But I think it's a little harsh. Please look at this article and web page and reconsider our ability and give us your next assignment after due consideration. Maybe we can take a break sometimes. We love pirogramming.</div>
+                        <div class="about-content5">
+                            <div class="about-check-icon"><i class="ion-android-checkmark-circle"></i>The picture on the left is the current time I'm coding.</div>
+                            <div class="about-check-icon"><i class="ion-android-checkmark-circle"></i>I'm very happy and happy right now.</div>
+                            <div class="about-check-icon"><i class="ion-android-checkmark-circle"></i>Please excuse me that I can sleep at dinner party afterwords.</div>
+                        </div>
+                    </div>
+            </div>
+            </div>
+        </div>
+
+        <div id="services" class="section-bg">
+            <div class="container">
+                <header class="section-header">
+                    <h3>Services</h3>
+                    <p>Laudem latine persequeris id sed, ex fabulas delectus quo. No vel partiendo abhorreant vituperatoribus.</p>
+                </header>
+                <div class="row">
+                    <div class="box">
+                        <div class="icon" style="background: #fceef3;"><i class="ion-ios-analytics-outline" style="color: #ff689b;"></i></div>
+                        <h4 class="title"><a href="">Lorem Ipsum</a></h4>
+                        <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+                    </div>
+                    <div class="box">
+                        <div class="icon" style="background: #fff0da;"><i class="ion-ios-bookmarks-outline" style="color: #e98e06;"></i></div>
+                        <h4 class="title"><a href="">Dolor Sitema</a></h4>
+                        <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
+                    </div>
+                    <div class="box">
+                        <div class="icon" style="background: #e6fdfc;"><i class="ion-ios-paper-outline" style="color: #3fcdc7;"></i></div>
+                        <h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
+                        <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+                    </div>
+                    <div class="box">
+                        <div class="icon" style="background: #eafde7;"><i class="ion-ios-speedometer-outline" style="color:#41cf2e;"></i></div>
+                        <h4 class="title"><a href="">Magni Dolores</a></h4>
+                        <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                    </div>
+                    <div class="box">
+                        <div class="icon" style="background: #e1eeff;"><i class="ion-ios-world-outline" style="color: #2282ff;"></i></div>
+                        <h4 class="title"><a href="">Nemo Enim</a></h4>
+                        <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
+                    </div>
+                    <div class="box">
+                        <div class="icon" style="background: #ecebff;"><i class="ion-ios-clock-outline" style="color: #8660fe;"></i></div>
+                        <h4 class="title"><a href="">Eiusmod Tempor</a></h4>
+                        <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>

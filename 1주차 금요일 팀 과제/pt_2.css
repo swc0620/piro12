@@ -1,0 +1,427 @@
+﻿
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+#content {
+    width: 100%;
+    margin: 0 auto;
+}
+
+/*style for WHY US SECTION*/
+#content1 {
+    overflow: hidden;
+    padding: 0px;
+    background: #f8f9fa;
+    margin: 0px 15px;
+}
+
+    #content1 #heading {
+        text-align: center;
+        margin-top: 60px;
+    }
+
+        #content1 #heading .title {
+            font-family: "Montserrat", sans-serif;
+            font-weight: 700;
+            font-size: 36px;
+            color: #413e66;
+            margin-bottom: 20px;
+        }
+
+        #content1 #heading .basic_info {
+            text-align: center;
+            margin: auto;
+            font-size: 15px;
+            font-family: "Open Sans", sans-serif;
+            padding-bottom: 40px;
+            color: #535074;
+            width: 50%;
+        }
+
+    #content1 #imagebox {
+        font-family: 'Poiret One';
+        font-weight: bold;
+        font-size: 1.2em;
+        width: 48%;
+        float: left;
+    }
+
+        #content1 #imagebox img {
+            width: 100%;
+        }
+
+    #content1 #infobox {
+        width: 52%;
+        padding: 0px 0px 40px 30px;
+        float: left;
+        border: 1px solid none;
+        box-sizing: border-box;
+    }
+
+        #content1 #infobox .para {
+            color: #444;
+            font-family: "Open Sans", sans-serif;
+            font-weight: 400;
+            font-size: 1rem;
+            margin-bottom: 20px;
+            text-align: left;
+            line-height: 1.5;
+        }
+
+        #content1 #infobox .header {
+            font-size: 24px;
+            font-weight: 600;
+            color: #413e66;
+            margin-bottom: 5px;
+        }
+
+            #content1 #infobox .header i {
+                margin-right: 10px;
+                font-size: 1.5em;
+            }
+
+        #content1 #infobox .info {
+            font-size: 16px;
+            font-weight: 400;
+            margin-left: 50px;
+            line-height: 1.5;
+            color: #555186;
+            margin-bottom: 30px;
+        }
+
+    #content1 #lists {
+        margin-top: 30px;
+    }
+
+    #content1 #number {
+        width: 100%;
+        overflow: hidden;
+    }
+
+        #content1 #number .no {
+            text-align: center;
+            width: 100%;
+        }
+
+            #content1 #number .no div {
+                float: left;
+                padding: 30px;
+                margin-right: 100px;
+                margin-bottom: 38px;
+            }
+
+                #content1 #number .no div:first-child {
+                    margin-left: 145px;
+                }
+
+                #content1 #number .no div h1 {
+                    font-family: "Montserrat", sans-serif;
+                    font-weight: bold;
+                    font-size: 48px;
+                    display: block;
+                    color: #555186;
+                    margin-bottom: 5px;
+                }
+
+                #content1 #number .no div p {
+                    font-family: "Montserrat", sans-serif;
+                    font-size: 14px;
+                    color: #8a87b6;
+                }
+
+/*style for CALL TO ACTION*/
+#content2 {
+    background-color: #2d2b46;
+    overflow: hidden;
+    padding: 38px 64px 40px 64px;
+}
+
+    #content2 .words {
+        float: left;
+        width: 73%;
+    }
+
+        #content2 .words .title {
+            color: #fff;
+            font-size: 28px;
+            font-weight: 700;
+            font-family: "Montserrat", sans-serif;
+            margin-bottom: 12px;
+        }
+
+        #content2 .words .basic_info {
+            color: #fff;
+            font-size: 1rem;
+            font-weight: 400;
+            font-family: "Open Sans", sans-serif;
+            line-height: 1.5;
+            margin-bottom: 20px;
+        }
+
+    #content2 .actionbutton {
+        float: left;
+        width: 27%;
+        position: relative;
+    }
+
+        #content2 .actionbutton a {
+            position: absolute;
+            top: 37px;
+            left: 75px;
+            padding: 10px 26px;
+            border: 3px solid #fff;
+            border-radius: 3px;
+            font-family: "Montserrat", sans-serif;
+            font-weight: 700;
+            font-size: 16px;
+            color: #ffffff;
+            text-decoration: none;
+            white-space: nowrap;
+            letter-spacing: 1px;
+        }
+
+            #content2 .actionbutton a:hover {
+                background: #1bb1dc;
+                border: 3px solid #1bb1dc;
+            }
+/*style for FEATURES*/
+#content3 {
+    padding: 0px;
+    background: #f8f9fa;
+    margin: 50px 70px 80px 70px;
+    overflow: hidden;
+}
+
+    #content3 #pt1 {
+        overflow: hidden;
+        margin-bottom: 100px;
+    }
+
+    #content3 .imagebox {
+        float: left;
+        width: 50%;
+    }
+
+        #content3 .imagebox img {
+            width: 97%;
+        }
+
+    #content3 #pt2 .imagebox img {
+        float: right;
+    }
+
+    #content3 .infobox {
+        float: left;
+        border: 1px solid none;
+        box-sizing: border-box;
+        width: 50%;
+        padding: 0px 7px;
+    }
+
+        #content3 .infobox .title {
+            font-weight: 600;
+            font-size: 24px;
+            font-family: "Montserrat", sans-serif;
+            color: #444;
+            margin-bottom: 20px;
+        }
+
+        #content3 .infobox .basic_info {
+            font-size: 1rem;
+            font-weight: 400;
+            font-family: "Open Sans", sans-serif;
+            color: #444;
+            line-height: 1.5;
+            margin-bottom: 28px;
+        }
+
+/*style for PORTFOLIO*/
+#content4 {
+    padding: 0px;
+    background: #f5f8fd;
+    overflow: hidden;
+    margin: 0 75px;
+}
+
+    #content4 #header {
+        font-size: 36px;
+        color: #413e66;
+        text-align: center;
+        font-weight: 700;
+        font-family: "Montserrat", sans-serif;
+        margin: 45px 0 30px 0;
+    }
+
+    #content4 #menu_list {
+        width: 100%;
+        margin: 0 427px;
+        overflow: hidden;
+        height: 40px;
+        line-height: 40px;
+        margin-bottom: 20px;
+    }
+
+        #content4 #menu_list div {
+            float: left;
+            text-align: center;
+            height: 40px;
+            margin-right: 20px;
+        }
+
+            #content4 #menu_list div a {
+                text-decoration: none;
+                padding: 6px 10px;
+                font-size: 16px;
+                line-height: 20px;
+                color: #413e66;
+            }
+
+                #content4 #menu_list div a:hover {
+                    color: #1bb1dc;
+                }
+
+    #content4 option1 {
+        position: relative;
+        height: 1081.02px;
+        overflow: hidden;
+        display: block;
+    }
+
+    #content4 #option2 {
+        position: relative;
+        height: 384.792px;
+        overflow: hidden;
+        display: none;
+    }
+
+    #content4 #option3 {
+        position: relative;
+        height: 550.448px;
+        overflow: hidden;
+        display: none;
+    }
+
+    #content4 #option4 {
+        position: relative;
+        height: 553.177px;
+        overflow: hidden;
+        display: none;
+    }
+
+#col_1 {
+    float: left;
+    margin-right: 26px;
+}
+
+#col_2 {
+    float: left;
+    margin-right: 26px;
+}
+
+#col_3 {
+    float: left;
+}
+
+/*style for TESTIMONIALS*/
+#content5 {
+    padding: 0px;
+    background: white;
+    overflow: hidden;
+    margin: 0;
+    position: relative;
+}
+
+    #content5 #header {
+        font-size: 36px;
+        color: #413e66;
+        text-align: center;
+        font-weight: 700;
+        font-family: "Montserrat", sans-serif;
+        margin: 45px 0 30px 0;
+    }
+
+    #content5 #the_content {
+        width: 60%;
+        margin: 0 auto 50px auto;
+        overflow: hidden;
+    }
+
+        #content5 #the_content .header {
+            float: left;
+        }
+
+            #content5 #the_content .header img {
+                width: 120px;
+                border-radius: 50%;
+                border: 4px solid #fff;
+                margin-right: 20px;
+            }
+
+        #content5 #the_content .info {
+            float: left;
+            width: 600px;
+            margin-bottom: 20px;
+        }
+
+            #content5 #the_content .info h1 {
+                font-size: 20px;
+                font-weight: bold;
+                color: #111;
+                font-family: "Montserrat", sans-serif;
+                margin-top: 5px;
+                margin-bottom: 3px;
+            }
+
+            #content5 #the_content .info h3 {
+                font-size: 14px;
+                color: #999;
+                font-family: "Montserrat", sans-serif;
+                font-weight: 400;
+                margin-bottom: 14px;
+            }
+
+            #content5 #the_content .info p2 {
+                font-style: italic;
+                font-family: "Open Sans", sans-serif;
+                color: #444;
+                font-weight: 400;
+            }
+
+    #content5 #opt1 {
+        display: block;
+    }
+
+    #content5 #opt2 {
+        display: none;
+    }
+
+    #content5 #opt3 {
+        display: none;
+    }
+
+    #content5 #opt4 {
+        display: none;
+    }
+
+    #content5 .circles {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+        #content5 .circles .circle {
+            display: inline-block;
+            margin: 0 5px;
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background-color: #ddd;
+        }
+
+
